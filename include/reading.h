@@ -23,7 +23,7 @@ class ReadTextFile : public ReadingStrategy {
         ReadTextFile(string);
 };
 
-// If the file is a text file, ReadBinaryFile object is created.
+// If the file is a binary file, ReadBinaryFile object is created.
 class ReadBinaryFile : public ReadingStrategy {
     public:
         ReadBinaryFile(string);
